@@ -1,0 +1,14 @@
+[package]
+name = "clack"
+version = "0.1.0"
+authors = ["jeremyletang <letang.jeremy@gmail.com>"]
+
+[dependencies]
+chan = "0.1.18"
+chan-signal = "0.1.7"
+env_logger = "0.3.5"
+hyper = "0.9.10"
+serde = "0.8.16"
+serde_derive = "0.8.16"
+serde_json = "0.8.3"
+ws = {version = "0.5.3", features = ["ssl"]}
